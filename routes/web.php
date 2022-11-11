@@ -49,3 +49,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('home');
+
+//payment->payement_export
+Route::get('/transcrip_export', [App\Http\Controllers\Report\TranscriptPDFController::class, 'export']);
