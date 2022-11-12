@@ -1,0 +1,81 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+  background: #17A2B8;
+}
+.wrapper{
+  width: 443px;
+  border-radius: 7px;
+  background: #fff;
+  padding: 30px 25px 40px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+}
+.wrapper :where(textarea, input, select, button){
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+
+.option label{
+  font-size: 17px;
+}
+.option :where(input, .select-menu){
+  height: 50px;
+  padding: 0 13px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+.option .select-menu select{
+  height: 50px;
+  background: none;
+}
+/* .wrapper .btn-Keyword{
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 16px 0;
+  margin-top: 20px;
+  pointer-events: none;
+  background: #17A2B8;
+} */
+.save-btn:hover{
+  background: #148c9f;
+}
+textarea:valid ~ .save-btn{
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 475px) {
+  .wrapper{
+    padding: 25px 18px 30px;
+  }
+  .wrapper :where(textarea, input, select, button, label){
+    font-size: 16px!important;
+  }
+  .file-options .option{
+    width: calc(100% / 2 - 5px);
+  }
+  .option :where(input, .select-menu){
+    padding: 0 10px;
+  }
+  .wrapper .save-btn{
+    padding: 15px 0;
+  }
+}

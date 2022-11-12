@@ -7,6 +7,14 @@ use App\Http\Controllers\CaptionController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\Lesson_AttachmentContoller;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\QuestionGenerateController;
+use App\Http\Controllers\QGKeywordController;
+use App\Http\Controllers\QGQustionsController;
+
+
+
+
+
 
 use App\Http\Controllers\ApiController;
 
@@ -50,5 +58,23 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('home');
 
-//payment->payement_export
+//pdf 
 Route::get('/transcrip_export', [App\Http\Controllers\Report\TranscriptPDFController::class, 'export']);
+
+
+//QG
+Route::get('/Question', [QuestionGenerateController::class,'index']);
+
+Route::get('/QGkeyword', [QGKeywordController::class,'index']);
+
+Route::get('/QG', [QGQustionsController::class,'index']);
+
+
+
+
+
+
+
+
+
+

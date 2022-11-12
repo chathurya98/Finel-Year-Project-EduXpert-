@@ -80,7 +80,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="course"
+                    <a href="/Question"
                         class="nav-link">
                         <i class="fas fa-question-circle"></i> &nbsp;
                         <p>
