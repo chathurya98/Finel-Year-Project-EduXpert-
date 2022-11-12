@@ -218,7 +218,7 @@
                   </video>
                   <div>
                     <button class="btn btn-primary btn-xl" id="btn-voice"><i class="fas fa-microphone"></i></button>
-                    &nbsp;&nbsp;<button class="btn btn-danger btn-xl" id="btn-voice"><i class="fas fa-download"></i></button>
+                    &nbsp;&nbsp;<button class="btn btn-danger btn-xl" id="btn-download" href="/transcrip_export"><i class="fas fa-download"></i></button>
                     &nbsp;&nbsp;<button class="btn btn-warning btn-xl" id="btn-caption"><i class="fas fa-closed-captioning"></i></button>
                   </div>
             </div>

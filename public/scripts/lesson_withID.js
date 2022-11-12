@@ -701,6 +701,11 @@ click_to_record.addEventListener('click', function() {
     }
 })
 
+$('#btn-download').click(function(e) {
+    e.preventDefault();  //stop the browser from following
+    window.location.href = '/transcrip_export';
+});
+
 // window.onload = () => {
 //     detect();
 // };

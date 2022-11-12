@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hi</title>
+    <title>EduXpert</title>
 </head>
 <body>
     <h1>{{ $title }}</h1>
