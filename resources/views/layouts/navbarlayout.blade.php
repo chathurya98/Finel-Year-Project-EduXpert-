@@ -60,7 +60,7 @@
                 </li>
                
                 <li class="nav-item">
-                    <a href="course"
+                    <a href="Vivaautomation"
                         class="nav-link">
                         <i class="far fa-handshake"></i> &nbsp;
                         <p>
@@ -70,7 +70,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="course"
+                    <a href="Vfacerecog"
                         class="nav-link">
                         <i class="fas fa-users"></i>&nbsp;
                         <p>

@@ -11,6 +11,9 @@ use App\Http\Controllers\QuestionGenerateController;
 use App\Http\Controllers\QGKeywordController;
 use App\Http\Controllers\QGQustionsController;
 
+use App\Http\Controllers\VivaautomationController;
+use App\Http\Controllers\VfacerecognitionController;
+
 
 
 
@@ -70,7 +73,10 @@ Route::get('/QGkeyword', [QGKeywordController::class,'index']);
 Route::get('/QG', [QGQustionsController::class,'index']);
 
 
+//VivaAutomation
+Route::get('/Vivaautomation', [VivaautomationController::class,'index']);
 
+Route::get('/Vfacerecog', [VfacerecognitionController::class,'index']);
 
 
 
