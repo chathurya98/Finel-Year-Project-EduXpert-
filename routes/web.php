@@ -13,6 +13,9 @@ use App\Http\Controllers\QGQustionsController;
 
 use App\Http\Controllers\VivaautomationController;
 use App\Http\Controllers\VfacerecognitionController;
+use App\Http\Controllers\SimplyfiController;
+
+
 
 
 
@@ -44,6 +47,7 @@ Route::put('/course/{id}', [C_CourseController::class,'update']);
 Route::delete('/course/{id}', [C_CourseController::class,'destroy']);
 
 
+//testing from postman
 Route::get('/api_course', [ApiController::class,'course']);
 Route::get('/api_lessons_attachments', [ApiController::class,'l_lessons_attachments']);
 
@@ -77,6 +81,9 @@ Route::get('/QG', [QGQustionsController::class,'index']);
 Route::get('/Vivaautomation', [VivaautomationController::class,'index']);
 
 Route::get('/Vfacerecog', [VfacerecognitionController::class,'index']);
+
+//simplyfi
+Route::get('/simplyfi', [SimplyfiController::class,'index']);
 
 
 

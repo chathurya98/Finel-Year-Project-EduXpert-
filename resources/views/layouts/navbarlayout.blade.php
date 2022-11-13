@@ -89,7 +89,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="course"
+                    <a href="simplyfi"
                         class="nav-link">
                         <i class="fa fa-book"></i> &nbsp;
                         <p>
